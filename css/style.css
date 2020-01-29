@@ -5,12 +5,10 @@
   list-style: none;
   vertical-align: baseline;
 }
-
 div {
   position: relative;
   z-index: 2;
 }
-
 body {
   background-color: #333;
   color: #333;
@@ -21,7 +19,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .footer {
   width: 450px;
   text-align: center;
@@ -35,7 +32,6 @@ body {
   text-decoration: none;
   color: #fff;
 }
-
 #quote-box {
   border-radius: 13px;
   position: relative;
@@ -98,7 +94,6 @@ body {
 #quote-box .buttons .button#new-quote {
   float: right;
 }
-
 #bg {
   position: fixed;
   top: 0;

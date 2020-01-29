@@ -29,23 +29,16 @@ function getRandomQuote() {
 }
 
 function getQuote() {
-
   let randomQuote = getRandomQuote();
-  
   currentQuote = randomQuote.quote;
   currentAuthor = randomQuote.author;
 
   if(inIframe())
   {
-    $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
-
-     
-    $('#facebook-quote').attr('href', 'https://www.facebook.com/');
-    
-    
-   $('#google-quote').attr('href', 'https://plus.google.com/');
+     $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
+     $('#facebook-quote').attr('href', 'https://www.facebook.com/');
+     $('#google-quote').attr('href', 'https://plus.google.com/');
   }
-  
   $(".quote-text").animate(
     { opacity: 0 },
     400,

@@ -5,12 +5,10 @@
   list-style: none;
   vertical-align: baseline;
 }
-
 div {
   position:relative;
   z-index: 2;
 }
-
 body {
   background-color: #333;
   color: #333;
@@ -95,10 +93,8 @@ body {
         float:right;
       }
     }
-  }
-  
+  } 
 }
-
 #bg {
   position: fixed; 
   top: 0; 
